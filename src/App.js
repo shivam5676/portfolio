@@ -15,7 +15,8 @@ function App() {
     <div className="bgss" style={{backgroundColor:"black",zIndex:-1}}>
       <NavBar></NavBar>
       <Hero></Hero>
-      <Skills></Skills>
+      <AboutUs></AboutUs>
+      {/* <Skills></Skills> */}
       <Projects></Projects>
 
       <ContactUs></ContactUs>

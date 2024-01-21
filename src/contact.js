@@ -6,7 +6,8 @@ import callIcon from "./images/telephone.png";
 const ContactUs = () => {
   return (
     <div class="container px-4 py-3">
-      <h2 class="pb-3 border-bottom text-center text-warning">Contact Us</h2>
+      <h2 class="pb-3 border-bottom text-center text-warning"><span className="text-info">H</span>ire{" "}
+                    <span className="text-info">M</span>e</h2>
 
       <div class="row row-cols-1 row-cols-md-2 align-items-center  g-5 py-5 mx-3">
         <div

@@ -1,5 +1,7 @@
 import heroIcon from "./images/herobgMan.png";
 // import herocss from "./hero.module.css"
+
+
 const Hero = () => {
   return (
     <div className={`container col-xxl-8 px-4 py-5 `}>
@@ -21,15 +23,15 @@ const Hero = () => {
             Greetings! I'm Shivam, a Fullstack Developer{" "}
             <h1
               style={{ display: "inline-block" }}
-              className="animate__animated animate__fadeOutTopRight animate__delay-2s"
+              className="animate__animated animate__fadeOutTopRight animate__delay-3s"
             >
               🚀
             </h1>
           </h1>
-          <p className="lead text-warning">
+          <p className="lead text-warning fw-semibold animate__animated animate__fadeInUp animate__delay-1s">
             Welcome to my coding and creative universe! My goal is to create
             remarkable web experiences, with a focus on mastering the craft of
-            Fullstack development using <span className="text-success text-bolder">React</span> and Node.js.
+            Fullstack development using <span className="text-info font-weight-bold">React</span> and <span className="text-info font-weight-bold">Node.js</span>.
           </p>
 
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">

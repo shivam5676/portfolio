@@ -14,7 +14,7 @@ import skillcss from "./skills.module.css";
 
 const Skills = () => {
   return (
-    <div className={`container ${skillcss.block} py-2`}>
+    <div className={`container ${skillcss.block} py-2 `}>
       <div className={`${skillcss.bgImg} px-1`}>
         <p className="text-center p-2">
           <div
