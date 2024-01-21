@@ -6,13 +6,13 @@ import Hero from "./hero";
 import OtherProjects from "./otherProjects";
 import Projects from "./projects";
 import Skills from "./skills";
-
+import "./index.css"
 <style>.md-mades{}</style>;
 
 function App() {
 
   return (
-    <div style={{backgroundColor:"black",zIndex:-1}}>
+    <div className="bgss" style={{backgroundColor:"black",zIndex:-1}}>
       <NavBar></NavBar>
       <Hero></Hero>
       <Skills></Skills>

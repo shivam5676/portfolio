@@ -72,7 +72,7 @@ const Skills = () => {
             <div className={` card p-md-3 p-3`} style={{ height: "95%" }}>
               <img src={awsIcon} className="img-fluid m-md-3 m-2"></img>
 
-              <p className="card-text text-center">AWS DEPLOYEMENT </p>
+              <p className="card-text text-center">AWS DEPLOYEMENT</p>
             </div>
           </div>
           <div className="col mb-3">

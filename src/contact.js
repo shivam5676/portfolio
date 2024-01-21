@@ -6,16 +6,16 @@ import callIcon from "./images/telephone.png";
 const ContactUs = () => {
   return (
     <div class="container px-4 py-3">
-      <h2 class="pb-3 border-bottom text-center">Contact Us</h2>
+      <h2 class="pb-3 border-bottom text-center text-warning">Contact Us</h2>
 
       <div class="row row-cols-1 row-cols-md-2 align-items-center  g-5 py-5 mx-3">
         <div
-          class="col d-flex flex-column align-items-center justify-content-center  gap-2 py-2"
+          class="col d-flex flex-column align-items-center justify-content-center  gap-2 py-2 pt-2"
           style={{
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            boxShadow: "0px 2px 5px 3px blue",
+            boxShadow: "0px 2px 5px 3px yellow",
           }}
         >
           <form class="form-floating col-10 ms-3">
@@ -27,7 +27,7 @@ const ContactUs = () => {
             />
             <label for="floatingInputValue">Name</label>
           </form>
-          <form class="form-floating col-10 ms-3">
+          <form class="form-floating col-10 ms-3 ">
             <input
               type="email"
               class="form-control "
@@ -62,7 +62,7 @@ const ContactUs = () => {
                 src={emailIcon}
               ></img>
 
-              <p class="fw-semibold mb-0 text-body-emphasis ms-2">shivam.handler@gmail.com</p>
+              <p class="fw-semibold mb-0 text-body-emphasis ms-2 bg-white">shivam.handler@gmail.com</p>
             </div>
             <div class="col d-flex flex-column gap-2 align-items-center">
               <img

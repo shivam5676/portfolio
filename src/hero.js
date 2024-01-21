@@ -4,34 +4,38 @@ const Hero = () => {
   return (
     <div className={`container col-xxl-8 px-4 py-5 `}>
       <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
-        <div className={`col-10 col-sm-8 col-lg-6 animate__animated animate__fadeInRight animate__slow `}>
+        <div
+          className={`col-10 col-sm-8 col-lg-6 animate__animated animate__backInRight animate__slow`}
+        >
           <img
             src={heroIcon}
-            className="d-block mx-lg-auto img-fluid"
+            className="d-block mx-lg-auto img-fluid animate__animated animate__headShake animate__delay-3s"
             alt="Bootstrap Themes"
             width="700"
             height="500"
             // loading="lazy"
           />
         </div>
-        <div
-          className={`col-lg-6  animate__animated animate__fadeIn`}
-        >
-          <h1 className="display-4 fw-bold text-info mb-4 animate__animated animate__fadeInLeft animate__slow">
-            Greetings! I'm Shivam, a Fullstack Developer 🚀
+        <div className={`col-lg-6  animate__animated animate__fadeIn`}>
+          <h1 className="display-4 fw-bold text-info mb-4 animate__animated animate__fadeInDownBig animate__slow">
+            Greetings! I'm Shivam, a Fullstack Developer{" "}
+            <h1
+              style={{ display: "inline-block" }}
+              className="animate__animated animate__fadeOutTopRight animate__delay-2s"
+            >
+              🚀
+            </h1>
           </h1>
           <p className="lead text-warning">
-            Step into my world of coding and creativity! I'm on a mission to
-            build exceptional web experiences, specializing in the art of
-            Fullstack development with React and Node.js.
+            Welcome to my coding and creative universe! My goal is to create
+            remarkable web experiences, with a focus on mastering the craft of
+            Fullstack development using <span className="text-success text-bolder">React</span> and Node.js.
           </p>
-          
 
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-            
             <button
               type="button"
-              className="  btn btn-outline-warning btn-lg px-4 "
+              className="  btn btn-outline-warning btn-lg px-4 animate__animated animate__lightSpeedInLeft animate__delay-3s"
             >
               SEE RESUME
             </button>
