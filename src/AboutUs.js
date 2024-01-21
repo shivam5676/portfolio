@@ -1,4 +1,5 @@
 import boyIcon from "./images/—Pngtree—chinese dragon spring festival traditional_13712207.png";
+import charIcon from "./images/3character.png";
 import aboutIcon from "./images/about me.gif";
 import AboutUscss from "./aboutus.module.css";
 const AboutUs = () => {
@@ -55,7 +56,7 @@ const AboutUs = () => {
             <div className="col-md-4 col-12 order-md-2 order-1 d-flex align-items-center justify-content-center">
               <img
                 className="img-fluid pt-3"
-                src={boyIcon}
+                src={charIcon}
                 style={{ height: "300px" }}
               />
             </div>

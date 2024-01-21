@@ -1,8 +1,8 @@
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg text-bg-info fixed-top ">
+    <nav className="navbar navbar-expand-lg text-bg-info fixed-top opacity-75">
       <div className="container">
-        <a className="navbar-brand" href="/title">
+        <a className="navbar-brand fw-bolder" href="/title">
           Navbar
         </a>
         <button
@@ -18,24 +18,24 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <a className="nav-link active text-white" aria-current="page" href="/home">
+            <a className="nav-link active text-white fw-bold" aria-current="page" href="/home">
               Home
             </a>
-            <a className="nav-link text-white" href="/aboutus">
+            <a className="nav-link text-white fw-bold" href="/aboutus">
               About me
             </a>
-            <a className="nav-link text-white" href="/portfolio">
+            <a className="nav-link text-white fw-bold" href="/portfolio">
               Projects
             </a>
-            <a className="nav-link text-white" href="/portfolio">
+            <a className="nav-link text-white fw-bold" href="/portfolio">
               skills
             </a>
-            <a className="nav-link text-white" href="/resume">
+            <a className="nav-link text-white fw-bold" href="/resume">
               Resume
             </a>
-            <div className="card text-center" style={{ width: "8rem" }}>
-              <a className="nav-link" href="/resume">
-                Contact us
+            <div className="card text-center fw-bold" style={{ width: "8rem" }}>
+              <a className="nav-link btn btn-warning" href="/resume">
+                HIRE ME
               </a>
             </div>
           </div>
