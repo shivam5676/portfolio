@@ -1,6 +1,6 @@
 import boyIcon from "./images/—Pngtree—chinese dragon spring festival traditional_13712207.png";
 import charIcon from "./images/3character.png";
-import aboutIcon from "./images/about me.gif";
+
 import AboutUscss from "./aboutus.module.css";
 const AboutUs = () => {
   return (
@@ -53,9 +53,9 @@ const AboutUs = () => {
       <div className="row row-cols-1 pt-3 ">
         <div className={`col border rounded border-info ${AboutUscss.btn}`}>
           <div className="row row-cols-md-2 row-cols-1">
-            <div className="col-md-4 col-12 order-md-2 order-1 d-flex align-items-center justify-content-center">
+            <div className="col-md-4 col-12 order-md-2 order-1  d-flex align-items-center justify-content-center">
               <img
-                className="img-fluid pt-3"
+                className="img-fluid pt-3 px-3"
                 src={charIcon}
                 style={{ height: "300px" }}
               />
@@ -70,14 +70,14 @@ const AboutUs = () => {
                   </h2>
                 </div>
                 <div className="col  my-5 text-md-start text-left ">
-                  <div className="d-flex justify-content-left">
+                  <div className="d-flex justify-content-left m-2">
                     {" "}
                     <h4 className="text-info ps-2">
                       <span className="text-white">S</span>harpener{" "}
                       <span className="text-white">.tech</span>
                     </h4>
                     <span className="ps-3 text-warning">
-                      ( Dec 2022 - present )
+                       Dec 2022 - present 
                     </span>
                   </div>
 
@@ -96,18 +96,18 @@ const AboutUs = () => {
                     things I completed.
                   </p>
                 </div>
-                {/* <hr class="featurette-divider text-white ms-2" /> */}
+                {/* <hr className="featurette-divider text-white ms-2 mx-2 " /> */}
               </div>
               <div className="row row-cols-1">
                 <div className="col  my-5 text-md-start text-left ">
-                  <div className="d-flex justify-content-left">
+                  <div className="d-flex justify-content-left mx-1">
                     {" "}
                     <h4 className="text-info ps-2">
                       <span className="text-white">F</span>ree
                       <span className="text-white">C</span>odecamp
                       <span className="text-white">.org</span>
                     </h4>
-                    <span className="ps-3 text-danger">( Dec 2024 )</span>
+                    <span className="ps-3 text-danger"> Jan 2024</span>
                   </div>
 
                   <div className="d-flex justify-content-left ">
