@@ -3,6 +3,7 @@ import heroIcon from "./images/herobgMan.png";
 
 
 const Hero = () => {
+  
   return (
     <div className={`container col-xxl-8 px-4 py-5 `}>
       <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
@@ -35,12 +36,13 @@ const Hero = () => {
           </p>
 
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button
+            <a
+            href="https://drive.google.com/file/d/1DON9tc0U82vj86Uj9JwGBby4O7f6sorv/view?usp=drive_link"
               type="button"
               className="  btn btn-outline-warning btn-lg px-4 animate__animated animate__lightSpeedInLeft animate__delay-3s"
             >
               SEE RESUME
-            </button>
+            </a>
           </div>
         </div>
       </div>

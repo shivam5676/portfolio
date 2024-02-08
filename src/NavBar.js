@@ -73,7 +73,10 @@ const NavBar = (props) => {
             >
               skills
             </a>
-            <a className="btn nav-link text-white fw-bold" href="/resume">
+            <a
+              className="btn nav-link text-white fw-bold"
+              href="https://drive.google.com/file/d/1DON9tc0U82vj86Uj9JwGBby4O7f6sorv/view?usp=drive_link"
+            >
               Resume
             </a>
             <div
