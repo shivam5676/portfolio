@@ -7,7 +7,7 @@ const Hero = () => {
     <div className={`container col-xxl-8 px-4 py-5 `}>
       <div className="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
         <div
-          className={`col-10 col-sm-8 col-lg-6 animate__animated animate__backInRight animate__slow`}
+          className={`col-10 col-sm-8 col-lg-6 animate__animated animate__backInRight animate__slow order-3 order-lg-1`}
         >
           <img
             src={heroIcon}
@@ -18,8 +18,8 @@ const Hero = () => {
             // loading="lazy"
           />
         </div>
-        <div className={`col-lg-6  animate__animated animate__fadeIn`}>
-          <h1 className="display-4 fw-bold text-info mb-4 animate__animated animate__fadeInDownBig animate__slow">
+        <div className={`col-lg-6  animate__animated animate__fadeIn order-2 `}>
+          <h1 className="display-4 fw-bold text-info mb-4 animate__animated animate__fadeInDownBig animate__slow mt-5 pt-5">
             Greetings! I'm Shivam, a Fullstack Developer{" "}
             <h1
               style={{ display: "inline-block" }}
