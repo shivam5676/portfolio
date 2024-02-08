@@ -27,8 +27,8 @@ const AboutUs = () => {
                   <p className="px-5 text-warning fw-semibold">
                     My name is Shivam Singh, and I'm from{" "}
                     <span className="text-info">Uttar Pradesh's Kanpur</span>.I
-                    hold a B.Sc. (P.C.M.) degree.My passion for computers and my
-                    love of technology inspired me to pursue a career in web
+                    hold a B.Sc. (P.C.M.) degree.My passion for Tech related things and my
+                    love for technology inspired me to pursue a career in web
                     development.
                     <p>
                       I'm a <span className="text-info">trainee </span> at{" "}

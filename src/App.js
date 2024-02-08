@@ -23,7 +23,7 @@ function App() {
     home: homeRef,
     skills:skillRef
   };
-  console.log(myobj);
+
 
   return (
     <div className="bgss" style={{ backgroundColor: "black", zIndex: -1}}>
