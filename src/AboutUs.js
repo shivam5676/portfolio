@@ -77,7 +77,7 @@ const AboutUs = () => {
                       <span className="text-white">.tech</span>
                     </h4>
                     <span className="ps-3 text-warning">
-                       Dec 2022 - present 
+                       Dec 2022 - JUNE 2023 
                     </span>
                   </div>
 
@@ -107,7 +107,7 @@ const AboutUs = () => {
                       <span className="text-white">C</span>odecamp
                       <span className="text-white">.org</span>
                     </h4>
-                    <span className="ps-3 text-danger"> Jan 2024</span>
+                    <span className="ps-3 text-danger"> JUNE 2024</span>
                   </div>
 
                   <div className="d-flex justify-content-left ">

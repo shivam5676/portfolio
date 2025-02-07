@@ -8,7 +8,7 @@ const NavBar = (props) => {
       top: component.current.offsetTop - 20,
       behaviour: "smooth",
     });
-    console.log(link);
+   
     setActiveLink(link);
   }
   console.log(activeLink);
@@ -75,7 +75,7 @@ const NavBar = (props) => {
             </a>
             <a
               className="btn nav-link text-white fw-bold"
-              href="https://drive.google.com/file/d/1DON9tc0U82vj86Uj9JwGBby4O7f6sorv/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1VBbY21Jxo8B2dtVyUUirHxinKgyRi7Nd/view?usp=drivesdk"
             >
               Resume
             </a>
